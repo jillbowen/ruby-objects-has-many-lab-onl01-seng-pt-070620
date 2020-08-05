@@ -10,5 +10,6 @@ class Artist
   end
   
   def add_songs(song)
+    song.ar
   
 end
