@@ -3,6 +3,6 @@ class Song
  
  @@all = []
  
- 
+ self.all
   
 end
