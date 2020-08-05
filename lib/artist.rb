@@ -5,7 +5,7 @@ class Artist
     @name = name
   end
   
-  def songs(songs) 
+  def songs 
     Song.all.select {|song| song.artist == self} 
   end
   
