@@ -4,7 +4,9 @@ class Song
   @@all = []
  
   def initialize(title)
-    @title = title 
+    @title = title
+    @artist = artist
+    @@all << self
   end
  
   def self.all
